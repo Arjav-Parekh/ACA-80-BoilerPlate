@@ -78,7 +78,7 @@ function draw(){
 
 
 function keyPressed(){
-    if(keyCode == 32 && score>0  ){
+    if(keyCode == 32  ){
         slingshot.attach(arrow.body);
         gameState = "onSling";
         arrow.trajectory = [];
